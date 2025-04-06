@@ -83,6 +83,8 @@ opennext/
 ├── next.config.ts                  # Next.js project configuration
 ├── package.json                    # Project metadata and dependencies
 ```
+**youtube link**
+https://youtu.be/vkLTB3HUQVs
 
 ## **📌 Getting Started**  
 
