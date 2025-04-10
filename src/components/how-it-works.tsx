@@ -7,7 +7,7 @@ import { Building, Wallet, FileCheck, Award, Coins } from "lucide-react"
 
 export default function HowItWorks() {
   const ref = useRef<HTMLDivElement>(null)
-  const { scrollYProgress } = useScroll({
+  const { } = useScroll({
     target: ref,
     offset: ["start end", "end start"],
   })

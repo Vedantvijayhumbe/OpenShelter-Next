@@ -26,7 +26,7 @@ export default function VisaPage() {
     })
     const [file, setFile] = useState<File | null>(null)
     const [isSubmitting, setIsSubmitting] = useState(false)
-    const [isAdmin, setIsAdmin] = useState(false)
+    // const [isAdmin, setIsAdmin] = useState(false)
     const [adminCredentials, setAdminCredentials] = useState({ id: "", password: "" })
     const [showAdminLogin, setShowAdminLogin] = useState(false)
     const [showVerification, setShowVerification] = useState(false)

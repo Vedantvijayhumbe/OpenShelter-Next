@@ -27,7 +27,7 @@ export default function PartnersSection() {
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Partners & Technology Stack</h2>
           <p className="text-muted-foreground text-lg max-w-[800px] mx-auto">
-            We're building OPENShelter with industry-leading partners and cutting-edge blockchain technology.
+            We are building OPENShelter with industry-leading partners and cutting-edge blockchain technology.
           </p>
         </motion.div>
 

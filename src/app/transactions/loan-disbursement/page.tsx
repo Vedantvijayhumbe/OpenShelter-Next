@@ -32,7 +32,7 @@ export default function LoanDisbursement() {
 
     // ETH values calculation
     const ethAmount = loanAmount / 100
-    const monthlyPayment = Number.parseFloat(ethAmount.toFixed(4))
+    // const monthlyPayment = Number.parseFloat(ethAmount.toFixed(4))
 
     return (
         <div className="min-h-screen flex flex-col">
@@ -97,7 +97,7 @@ export default function LoanDisbursement() {
                     </CardContent>
                     <CardFooter className="flex flex-col gap-4">
                         <p className="text-sm text-center text-muted-foreground">
-                        We'll review your application and notify you of the decision within 24-48 hours.
+                        We will review your application and notify you of the decision within 24-48 hours.
                         </p>
                         <Button onClick={() => setActiveTab("status")}>Check Application Status</Button>
                     </CardFooter>
@@ -290,7 +290,7 @@ export default function LoanDisbursement() {
                         </div>
                         <h3 className="font-medium mb-2">No Applications Yet</h3>
                         <p className="text-muted-foreground text-sm max-w-md mx-auto mb-6">
-                            You haven't submitted any loan applications yet. Apply for a loan to get started.
+                            You have not submitted any loan applications yet. Apply for a loan to get started.
                         </p>
                         <Button onClick={() => setActiveTab("apply")}>Apply for a Loan</Button>
                         </div>

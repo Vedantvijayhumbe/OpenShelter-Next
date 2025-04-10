@@ -126,7 +126,7 @@ export default function DemoSection() {
                           </li>
                           <li className="flex items-start gap-2">
                             <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                            <span>Selective disclosure lets you share only what's needed</span>
+                            <span>Selective disclosure lets you share only what is needed</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />

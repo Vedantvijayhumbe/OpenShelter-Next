@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef } from "react"
+import { useState } from "react"
 import abi from "@/contract_data/RefugeeFinance.json"
 
 // Extend the Window interface to include the ethereum property
@@ -75,8 +75,8 @@ export default function GetStarted() {
   })
 
   // File state for document upload
-  const [selectedFile, setSelectedFile] = useState<File | null>(null)
-  const fileInputRef = useRef<HTMLInputElement>(null)
+  // const [selectedFile, setSelectedFile] = useState<File | null>(null)
+  // const fileInputRef = useRef<HTMLInputElement>(null)
 
   // Connect wallet function using ethers.js
   const connectWallet = async () => {
@@ -142,11 +142,11 @@ export default function GetStarted() {
   }
 
   // Handle file selection
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files.length > 0) {
-      setSelectedFile(e.target.files[0])
-    }
-  }
+  // const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   if (e.target.files && e.target.files.length > 0) {
+  //     setSelectedFile(e.target.files[0])
+  //   }
+  // }
 
   return (
     <div className="min-h-screen flex flex-col">

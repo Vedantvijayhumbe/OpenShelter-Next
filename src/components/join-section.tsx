@@ -40,7 +40,7 @@ export default function JoinSection() {
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Join the Movement</h2>
           <p className="text-muted-foreground text-lg max-w-[800px] mx-auto">
-            Be part of the solution that's bringing digital identity and financial inclusion to millions of displaced
+            Be part of the solution that is bringing digital identity and financial inclusion to millions of displaced
             people worldwide.
           </p>
         </motion.div>
